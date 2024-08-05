@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
+    <title>Informática</title>
+   
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,34 +23,21 @@
             margin-left:30px;
         }
 
-        ul {
-            list-style-type: none; 
-        }
-        
-        li{
-            margin-bottom: 30px;
-        }
-
-        li a {
-            text-decoration: none;
+        a {
             color: green;
+            text-decoration: none;
+            list-style-type: none; 
             margin-left:30px;
-           
-            
         }
 
-        li a:hover {
+        a:hover {
             color: #004999;
         }
     </style>
-
 </head>
 <body>
-    <h1>Olá, seja bem vindo ao IFRN</h1>
-    <h2>Escolha um aluno incrivel</h2>
-    <ul>
-        <li><a href="{% url 'geraldo' %}">Clique aqui para ver a página de Geraldinhozinho</a> </li>
-        <li><a href="{% url 'alana' %}">Clique aqui para ver a página de Alaninha</a> </li>
-    </ul>
+    <h1>Oii, eu sou Alana</h1>
+    <h2>A melhor </h2>
+    <a href="{% url 'index' %}">Clique aqui para voltar</a>
 </body>
 </html>

@@ -8,3 +8,6 @@ def index(request):
 
 def geraldo(request):
     return render(request, 'alunos/geraldo.html')
+
+def alana(request):
+    return render(request, 'alunos/alana.html')
